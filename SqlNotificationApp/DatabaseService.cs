@@ -1,5 +1,5 @@
 using Microsoft.Extensions.Configuration;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 public class DatabaseService
 {
     private readonly string _connectionString;
