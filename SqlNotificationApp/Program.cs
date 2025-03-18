@@ -22,6 +22,7 @@ class Program
 
             DatabaseService databaseService = new DatabaseService(config);
             databaseService.Connect();
-            databaseService.RegisterDependency();
+            //databaseService.RegisterDependency();
+            databaseService.PopulateSubscriberTable(1000000);
     }
 }
